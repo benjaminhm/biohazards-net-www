@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Features",
   description:
-    "Full breakdown of every feature in biohazards.net — job management, automated document generation, photo evidence, client accept flow, Xero integration, and more.",
+    "Full breakdown of every feature in biohazards.net — job management, automated documents, receipt capture, photo evidence, client accept flow, Xero integration, and more.",
 };
 
 const features = [
@@ -52,6 +52,20 @@ const features = [
     ],
   },
   {
+    id: "receipt-capture",
+    icon: "🧾",
+    title: "Receipt Capture",
+    subtitle: "Snap it. Saved to the job. Synced to Xero.",
+    description:
+      "On site buying chemicals, PPE, or consumables? Snap the receipt on your phone. It's saved directly against the job and pushed to Xero as an expense — no manual entry, no receipts lost in the van, no chasing paperwork at tax time.",
+    bullets: [
+      "Capture receipts from your phone camera on site",
+      "Saved against the job they belong to",
+      "Auto-synced to Xero as an expense",
+      "Full expense history searchable by job, date, or supplier",
+    ],
+  },
+  {
     id: "client-accept",
     icon: "✍️",
     title: "Client Accept Flow",
@@ -69,13 +83,13 @@ const features = [
     id: "xero",
     icon: "🔗",
     title: "Xero Integration",
-    subtitle: "Quote accepted. Invoice created. Done.",
+    subtitle: "Quote accepted. Invoice created. Receipts filed. All without touching Xero.",
     description:
-      "When a client accepts a quote, biohazards.net automatically creates the Xero invoice. Line items, amounts, client details — all transferred without touching a keyboard. No double-handling. No manual data entry.",
+      "biohazards.net connects to Xero at both ends of the job. When a client accepts a quote, the invoice is created automatically. When you snap a receipt on site, the expense is synced. Your Xero stays accurate without you doing any data entry.",
     bullets: [
       "Automatic invoice creation on quote acceptance",
-      "Line items matched to your quote",
-      "Client synced to Xero contacts",
+      "Line items and client details matched exactly",
+      "Expenses synced from receipt capture",
       "Payment tracking in Xero",
     ],
   },
@@ -123,9 +137,9 @@ export default function FeaturesPage() {
                 <span className="text-[#FF6B35]">Every part of it.</span>
               </h1>
               <p className="text-[#888888] text-lg leading-relaxed">
-                Every feature in biohazards.net was designed around how a
-                biohazard cleaning job actually works — from first call to final
-                invoice.
+                Every feature was designed around how a biohazard cleaning
+                business actually runs — from the first call to the last
+                receipt. The stuff you&apos;d hire someone to do, automated.
               </p>
             </div>
           </AnimatedSection>

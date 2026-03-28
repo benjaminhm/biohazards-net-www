@@ -4,13 +4,13 @@ import HeroMockup from "./components/HeroMockup";
 import AnimatedSection from "./components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "biohazards.net — Job Management & Automated Documents for Biohazard Operators",
+  title: "biohazards.net — The Employee in Your Pocket. Built for Biohazard Operators.",
   description:
-    "biohazards.net turns your site assessment into a professional quote, scope of work, or completion report — automated and branded to your business. Built for biohazard cleaning operators across Australia.",
+    "biohazards.net quotes jobs, files receipts, and invoices clients automatically. The operating system for solo biohazard cleaning operators across Australia.",
   openGraph: {
-    title: "biohazards.net — Job Management & Automated Documents for Biohazard Operators",
+    title: "biohazards.net — The Employee in Your Pocket. Built for Biohazard Operators.",
     description:
-      "From job site to signed quote in under 10 minutes. Automated document generation for Australian biohazard cleaning businesses.",
+      "biohazards.net quotes jobs, files receipts, and invoices clients automatically. Built for solo biohazard cleaning operators across Australia.",
     url: "https://www.biohazards.net",
   },
 };
@@ -35,6 +35,12 @@ const features = [
       "Before and after photos embedded directly in your reports. Captured on your phone, embedded in the PDF.",
   },
   {
+    icon: "🧾",
+    title: "Receipt Capture",
+    description:
+      "Snap a photo of any receipt on site. Saved to the job, synced to Xero as an expense. No more receipts lost in the van.",
+  },
+  {
     icon: "✍️",
     title: "Client Accept Flow",
     description:
@@ -44,7 +50,7 @@ const features = [
     icon: "🔗",
     title: "Xero Integration",
     description:
-      "Invoice created automatically when a quote is accepted. No manual data entry. No double-handling.",
+      "Invoices created on quote acceptance. Expenses synced from receipt capture. Xero stays up to date without you touching it.",
   },
   {
     icon: "🏷️",
@@ -98,19 +104,18 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-2 bg-[#FF6B35]/10 border border-[#FF6B35]/20 rounded-full px-3 py-1 mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B35]" />
                 <span className="text-[#FF6B35] text-xs font-medium">
-                  Built for Australian biohazard operators
+                  Built for solo biohazard operators in Australia
                 </span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] tracking-tight mb-6">
-                From job site to signed quote{" "}
+                The employee{" "}
                 <span className="text-[#FF6B35]">
-                  in under 10 minutes.
+                  in your pocket.
                 </span>
               </h1>
               <p className="text-[#888888] text-lg leading-relaxed mb-8 max-w-lg">
-                biohazards.net turns your site assessment into a professional
-                quote, scope of work, or completion report — automated and
-                branded to your business.
+                biohazards.net quotes the job, files the receipts, and invoices
+                the client — automatically. So you can stay on the tools.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-8">
                 <a
@@ -182,7 +187,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">
-              Everything you need to run the job
+              Does the work you don&apos;t have time for
             </h2>
             <p className="text-[#888888] text-lg max-w-xl mx-auto">
               Built specifically for biohazard operators. Not adapted from
