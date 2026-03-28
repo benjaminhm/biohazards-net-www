@@ -7,9 +7,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { name, email, phone, message, type, state } = body;
 
-    const subject = type === 'accelerator'
-      ? `Accelerator application from ${name} (${state})`
-      : `New contact from ${name}`;
+    const subject = `New contact from ${name}`;
 
     const html = `
       <h2>${subject}</h2>

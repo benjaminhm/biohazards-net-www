@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Features",
   description:
-    "Full breakdown of every feature in biohazards.net — job management, AI document generation, photo evidence, client accept flow, Xero integration, and more.",
+    "Full breakdown of every feature in biohazards.net — job management, automated document generation, photo evidence, client accept flow, Xero integration, and more.",
 };
 
 const features = [
@@ -26,10 +26,10 @@ const features = [
   {
     id: "ai-documents",
     icon: "⚡",
-    title: "AI Document Generation",
+    title: "Automated Document Generation",
     subtitle: "Your quote is ready before you leave the job site.",
     description:
-      "Fill in the site assessment. Press generate. Claude AI writes a professional quote, scope of work, or completion report — using your actual job details, not a generic template. You get a document you'd actually send to a client or insurance company.",
+      "Fill in the site assessment. Press generate. biohazards.net writes a professional quote, scope of work, or completion report — using your actual job details, not a generic template. You get a document you'd actually send to a client or insurance company.",
     bullets: [
       "Quotes — itemised, professional, specific to your job",
       "Scopes of Work — detailed method statements for insurance",

@@ -17,7 +17,7 @@ const plans = [
     features: [
       "1 user",
       "Unlimited jobs",
-      "AI document generation",
+      "Automated document generation",
       "PDF downloads",
       "app.biohazards.net subdomain",
       "Email support",
@@ -67,8 +67,8 @@ const faqs = [
     a: "Yes. All plans include a 14-day free trial. No credit card required. Cancel any time during the trial and you won't be charged.",
   },
   {
-    q: "How does AI document generation work?",
-    a: "You fill in your job assessment — client, site, job type, scope, photos. One button sends that data to Claude AI, which writes a professional quote, scope of work, or completion report. It uses your actual job details, not a generic template. You can edit before sending.",
+    q: "How does automated document generation work?",
+    a: "You fill in your job assessment — client, site, job type, scope, photos. One button generates a professional quote, scope of work, or completion report using your actual job details, not a generic template. You can edit before sending.",
   },
   {
     q: "Do I need to be tech-savvy?",

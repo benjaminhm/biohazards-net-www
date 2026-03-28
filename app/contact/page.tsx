@@ -44,7 +44,7 @@ export default function ContactPage() {
                 </p>
                 <p className="text-[#888888] text-sm leading-relaxed mb-4">
                   If you have questions about the platform, want to book a demo,
-                  or are considering the Accelerator program, send me a message.
+                  or want to talk through whether it's right for your business, send me a message.
                 </p>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-[#22C55E]">●</span>

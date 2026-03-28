@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#888888] text-sm leading-relaxed max-w-xs">
-              Job management and AI document generation for biohazard cleaning operators across Australia.
+              Job management and automated document generation for biohazard cleaning operators across Australia.
             </p>
           </div>
 
@@ -27,7 +27,6 @@ export default function Footer() {
               {[
                 { href: "/features", label: "Features" },
                 { href: "/pricing", label: "Pricing" },
-                { href: "/accelerator", label: "Accelerator" },
                 { href: "/contact", label: "Contact" },
               ].map((link) => (
                 <li key={link.href}>
